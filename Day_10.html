@@ -1,0 +1,199 @@
+<!-- DAY 10 
+
+Flexbox
+📌 Important Rule
+display: flex;
+→ It decides how to align content.
+→ It always works on the parent element.
+
+
+Clean Navbar Code (Improved) -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 7</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background-color: gainsboro;
+    }
+
+    ul {
+      display: flex;
+      gap: 30px;
+    }
+
+    ul li {
+      list-style: none;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    img {
+      height: 40px;
+      width: 50px;
+    }
+
+    button {
+      background: orangered;
+      color: whitesmoke;
+      border: none;
+      height: 35px;
+      width: 70px;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: black;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#"><img src="../images/favicon.png" alt="logo" /></a>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="./contact.html" target="_blank">Contact Us</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+
+    <div>
+      <button>Login</button>
+      <button>Logout</button>
+    </div>
+  </nav>
+
+  <a href="https://docs.google.com" target="_blank">
+    Go to Home Page
+  </a>
+
+</body>
+</html>
+
+<!-- 
+target="_blank"
+Definition
+target="_blank"
+→ Opens the link in a new tab. -->
+
+<!-- CODE OF target="_blank" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Target Blank Example</title>
+</head>
+<body>
+
+    <h1>target="_blank" Example</h1>
+
+    <!-- Normal Link (opens in same tab) -->
+    <a href="https://www.google.com">
+        Open Google (Same Tab)
+    </a>
+
+    <br><br>
+
+    <!-- Link with target="_blank" -->
+    <a href="https://www.google.com" target="_blank">
+        Open Google (New Tab)
+    </a>
+
+</body>
+</html>
+
+<!-- Ctrl + D (VS Code Shortcut)
+Ctrl + D
+→ Selects the next matching word.
+→ Useful for editing multiple same words quickly.
+
+
+CSS Box Model
+Every HTML element follows the Box Model.
+
+📌 Box Model Structure
+1. Content
+2. Padding
+3. Border
+4. Margin
+
+
+📘 Definition
+Margin:
+Space outside the border.
+
+Padding:
+Space inside the border (around content).
+
+Border:
+Outline around the element.
+
+
+🔹 Box Model Code -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Model</title>
+
+  <style>
+    div {
+      background-color: lightblue;
+      padding: 20px;
+      border: 5px solid blue;
+      margin: 40px;
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    This is Box Model Example
+  </div>
+
+</body>
+</html>
+
+
+<!-- 
+Background Color & Background Image
+
+Background Color CSS
+body {
+  background-color: lightgray;
+}
+
+
+
+✅ Background Image CSS
+body {
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ -->
+
