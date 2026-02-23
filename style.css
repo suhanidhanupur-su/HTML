@@ -1,0 +1,14 @@
+.navbar{
+    background-color: rgb(39, 119, 185);
+}
+.btn{
+    background-color:rgb(39, 119, 185);
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    border-color: black;
+    font-size: bold;
+}
+.dot{
+    border-color:;
+}
